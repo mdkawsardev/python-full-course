@@ -4,6 +4,7 @@ a = "       heLlO wOrLd"
 print(a.upper()) #? Converts to upper-case
 print(a.capitalize()) #? First letter is capitalized
 print(a.lower()) #? Converts to lower-case
+print(a.casefold()) #? Converts to lower-case(More aggressive than lower())
 print(a.title()) #? Converts all fisrt letter of the word capitalized
 print(a.strip()) #? Removes all whitespace from both-side(left to right)
 print(a.rstrip()) #? Removes whitespace of right-side
