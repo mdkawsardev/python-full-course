@@ -20,3 +20,6 @@ print(third_list[2:]) #* Returns index 2 to the end of the list. index 2 is incl
 print(third_list[2:0]) #* Returns index 2 to the end of the list. Same as above
 print(third_list[:5]) #* Returns index 0 to 4 of the list. index 5 is excluded
 print(third_list[0:5]) #* Returns index 0 to 4 of the list. Same as above
+print("")
+
+print("papaya" not in third_list) #* Returns True
