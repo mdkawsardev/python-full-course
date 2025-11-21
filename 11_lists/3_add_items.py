@@ -11,3 +11,5 @@ my_list[0:2] = ["apple", "banana"] #* To change the value of items within a spec
 print(my_list)
 my_list[0:2] = ["lemon", "watermalon", "melon"] #* Here my range is 0 to 2 index, but I can replace index 0 or index 1. I have totall two index to replace, but there is three items. Here two items will replace with previous items, and one of this will be added
 print(my_list) #! Result = ["lemon", "watermalon", "melon", "rocky", "jahid"]
+my_list.insert(0, "my world") #* This method will add items without replace any items. This adds items with a specified index number
+print(my_list)
