@@ -36,3 +36,5 @@ print(third_list[0:-1]) #* Returns all the items of the list except -1 index of 
 print(third_list[-5:-1]) #* Returns -2 item to -5 item. -5 is included and -1 is excluded
 
 print("papaya" not in third_list) #* Returns True
+if "apple" in third_list:
+    print("Yes! apple is in the list")
