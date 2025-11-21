@@ -11,5 +11,26 @@ my_list[0:2] = ["apple", "banana"] #* To change the value of items within a spec
 print(my_list)
 my_list[0:2] = ["lemon", "watermalon", "melon"] #* Here my range is 0 to 2 index, but I can replace index 0 or index 1. I have totall two index to replace, but there is three items. Here two items will replace with previous items, and one of this will be added
 print(my_list) #! Result = ["lemon", "watermalon", "melon", "rocky", "jahid"]
-my_list.insert(0, "my world") #* This method will add items without replace any items. This adds items with a specified index number
+my_list.insert(0, "my world") #* To insert a new list item, without replacing any of the existing values, we can use the insert() method. It takes two parameter insert(index, items)
 print(my_list)
+
+#? Extend List
+#* To append elements from another list to the current list, use the extend() method.
+
+list1 = [1, 2, 3, 4]
+print(list1)
+list2 = [5, 6, 7, 8]
+print(list2)
+list1.extend(list2) #* The elements will be added to the end of the list.
+
+print(list1)
+
+#? The extend() method does not have to append lists, you can add any iterable object (tuples, sets, dictionaries etc.).
+my_tuple = (9, 10, 11, 12)
+print(my_tuple)
+list1.extend(my_tuple)
+print(list1)
+my_set = {13, 14, 15, 16} #* a set is an unordered, so you will see the output of the set randomly
+print(my_set)
+list1.extend(my_set)
+print(list1)
