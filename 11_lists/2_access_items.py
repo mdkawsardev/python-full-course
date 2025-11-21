@@ -20,6 +20,19 @@ print(third_list[2:]) #* Returns index 2 to the end of the list. index 2 is incl
 print(third_list[2:0]) #* Returns index 2 to the end of the list. Same as above
 print(third_list[:5]) #* Returns index 0 to 4 of the list. index 5 is excluded
 print(third_list[0:5]) #* Returns index 0 to 4 of the list. Same as above
-print("")
+
+"""
+? Positive index
+             0     1       2   3    4      5       6    7
+third_lit = [1, "apple", True, 2, True, "mango", False, 4]
+! Negative index
+            -8    -7      -6   -5  -4      -3     -2   -1
+third_lit = [1, "apple", True, 2, True, "mango", False, 4]
+
+"""
+print(third_list[-1]) #* Returns last item of the list
+print(third_list[:-1]) #* Returns all the items of the list except -1 index of item
+print(third_list[0:-1]) #* Returns all the items of the list except -1 index of item. Same as above
+print(third_list[-5:-1]) #* Returns -2 item to -5 item. -5 is included and -1 is excluded
 
 print("papaya" not in third_list) #* Returns True
