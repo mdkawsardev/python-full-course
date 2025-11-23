@@ -15,12 +15,16 @@ print(list1)
 list2 = ["imran", "kawsar", "jakir", "rahul", "yusof"]
 print(list2)
 list2.pop(2) #* Removes by a specified index
+list2.pop() #* If I do not want to remove a specified items it will remove the last item 
 print(list2)
 
 #! del
-del list1
+list3 = ["january", "february", "march", "april"]
+del list3[1] #* It will delete just an item by index
+print(list3)
+del list3 #* It will delete list
 
-#print(list1) #* This will give an error, because I deleted list1 by 'del' keyword, so there is no list called list1
+#print(list3) #* This will give an error, because I deleted list3 by 'del' keyword, so there is no list called list3
 
 #! clear()
 
