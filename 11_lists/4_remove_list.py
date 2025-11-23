@@ -27,6 +27,5 @@ del list3 #* It will delete list
 #print(list3) #* This will give an error, because I deleted list3 by 'del' keyword, so there is no list called list3
 
 #! clear()
-
 list2.clear() #* It will make an empty list
 print(list2) #* Result is an empty list, because I cleared all of items from list2 through clear() method
