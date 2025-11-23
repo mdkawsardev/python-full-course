@@ -17,3 +17,8 @@ print(list2)
 # list3 = [x for x in list1 if x != "january" else "another"]
 list3 = [x if x.lower() != "january" else "apple" for x in list1]
 print(list3)
+
+#? The iterable can be any iterable object, like a list, tuple, set etc.
+#* You can use the range() function to create an iterable:
+list4 = [x for x in range(10) if x <= 5]
+print(list4)
