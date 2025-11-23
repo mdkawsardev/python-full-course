@@ -22,7 +22,7 @@ print(list2)
 list3 = ["january", "february", "march", "april"]
 del list3[1] #* It will delete just an item by index
 print(list3)
-del list3 #* It will delete list
+del list3 #* It will completly delete the list 
 
 #print(list3) #* This will give an error, because I deleted list3 by 'del' keyword, so there is no list called list3
 
