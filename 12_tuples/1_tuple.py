@@ -32,7 +32,7 @@ for x in tuple5:
 for x in range(len(tuple5)): #* With index number
     print(tuple5[x])
 
-#? Tuple constructor
+#? Tuple constructor -> tuple()
 tuple6 = tuple(("January", "February", True, False, 1, 1.00))
 print(type(tuple6))
 for x in range(len(tuple6)):
