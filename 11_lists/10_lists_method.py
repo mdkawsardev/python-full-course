@@ -20,7 +20,9 @@
 list1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 2, 2]
 list1.append(True) #* Adds items to end of the list
 print(list1)
-list2 = list1.copy() #* Copied list1
+list2 = list1.copy() #* Copied list1 they are same
+list2 = list(list1) #* Copied list1 they are same
+list2 = list1[:] #* Copied list1 they are same
 print(list2)
 list1.clear()
 print(list1) #* Now, it's an empty list
