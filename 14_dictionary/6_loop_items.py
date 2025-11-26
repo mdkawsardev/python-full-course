@@ -33,3 +33,7 @@ for b in my_dict1.values():
 print("")
 print(my_dict1.keys()) #* It will return all keys in a list
 print(my_dict1.values()) #* It will return all values in a list
+
+#? Loop through both keys and values, by using the items() method:
+for x, y in my_dict1.items():
+    print(x, y)
