@@ -73,3 +73,16 @@ match eid_day:
         print("Eid just ended")
     case _:
         print("Go to the work place")
+
+user_type = "Admin"
+status = "Active"
+match user_type:
+    case "Admin":
+        if status == "Active":
+            print("User is active")
+        else:
+            print("User is not active")
+    case "Guest":
+        print("User is guest")
+    case _:
+        print("Unknown user type")
