@@ -57,10 +57,19 @@ match holiday:
 #? If Statements as Guards
 #* You can add if statements in the case evaluation as an extra condition-check:
 month = 3
-eid_day = 18
+eid_day = 2
 match eid_day:
     case 16 | 17 | 18 if month == 3:
         print("Enjoy Eid days")
     case _:
         print("End days have ended")
 
+match eid_day:
+    case d if d > 10 and d <= 20 :
+        print("Eid is coming soon...")
+    case 21:
+        print("Eid Mubarak!")
+    case d if d > 21 :
+        print("Eid just ended")
+    case _:
+        print("Go to the work place")
