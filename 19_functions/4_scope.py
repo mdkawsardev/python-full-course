@@ -64,3 +64,8 @@ def change():
 change()
 print(a)
 
+import platform
+s = platform.system()
+print(s)
+d = dir(platform)
+print(d)
