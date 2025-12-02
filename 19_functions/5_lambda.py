@@ -27,4 +27,3 @@ def myfunc(n):
 result = myfunc(4)
 result2 = myfunc(3)
 print(result(11))
-print(result2(11))
