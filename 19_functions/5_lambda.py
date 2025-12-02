@@ -18,3 +18,13 @@ print(y(3, 5))
 #* Summarize argument a, b, and c and return the result:
 z = lambda a, b, c: a + b + c
 print(z(2, 3, 4))
+
+#? Why Use Lambda Functions?
+#* The power of lambda is better shown when you use them as an anonymous function inside another function.
+#* Say you have a function definition that takes one argument, and that argument will be multiplied with an unknown number:
+def myfunc(n):
+    return lambda a: a * n
+result = myfunc(4)
+result2 = myfunc(3)
+print(result(11))
+print(result2(11))
