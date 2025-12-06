@@ -8,9 +8,47 @@
 import json
 #* Parse JSON - Convert from JSON to Python
 #* If you have a JSON string, you can parse it by using the 'json.loads()' method.
-#* Convert from JSON to Python:
+#? Convert from JSON to Python:
 #* some json
 x = '{"name":"imran", "age":23, "profession":"python developer"}'
 #* parse x
 y = json.loads(x)
 print(y["name"])
+print(x)
+
+
+#? Convert from Python to JSON
+#* If you have a Python object, you can convert it into a JSON string by using the 'json.dumps()' method.
+#* Convert from Python to JSON:
+xx = {
+    "name": "Kawsar",
+    "age": 22,
+    "profession": "Student"
+}
+z = json.dumps(xx)
+print(z)
+print(type(z)) #* json str
+
+"""
+? You can convert Python objects of the following types, into JSON strings:
+
+1. dict
+2. list
+3. tuple
+4. string
+5. int
+6. float
+7. True
+8. False
+9. None
+"""
+#* Convert Python objects into JSON strings, and print the values:
+print(json.dumps({"name": "imran", "age": 23}))
+print(json.dumps(["apple", "bananas"]))
+print(json.dumps(("apple", "bananas")))
+print(json.dumps("hello"))
+print(json.dumps(42))
+print(json.dumps(31.76))
+print(json.dumps(True))
+print(json.dumps(False))
+print(json.dumps(None))
