@@ -14,6 +14,3 @@ x = '{"name":"imran", "age":23, "profession":"python developer"}'
 #* parse x
 y = json.loads(x)
 print(y["name"])
-
-
-
