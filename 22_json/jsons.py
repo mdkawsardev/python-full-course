@@ -100,6 +100,5 @@ print(my_json2)
 #* The json.dumps() method has parameters to order the keys in the result:
 #* Use the 'sort_keys' parameter to specify if the result should be sorted or not:
 my_json3 = json.dumps(details, indent=4, sort_keys= True)
-print("Sorted json")
 print(my_json3)
 
